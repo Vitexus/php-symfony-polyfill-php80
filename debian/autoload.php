@@ -21,3 +21,8 @@ require_once '/usr/share/php/Composer/InstalledVersions.php';
         'versions' => $versions,
     ]);
 })();
+
+if (\PHP_VERSION_ID < 80000) {
+    require_once __DIR__ . '/Php80.php';
+}
+require_once __DIR__ . '/bootstrap.php';
