@@ -1,8 +1,8 @@
-php-symfony-polyfill-php80 (1.33.0-1) trixie; urgency=medium
+php-symfony-polyfill-php80 (1.33.0.4) trixie; urgency=medium
 
-  * Fix install path: Polyfill/php80 → Polyfill/Php80 to match phinx autoload expectation
+  * Fix install path: Polyfill/php80 → Polyfill/Php80 to match phinx autoload expectation (PSR-4)
 
- -- Vítězslav Dvořák <info@vitexsoftware.cz>  Sun, 25 May 2026 16:00:00 +0200
+ -- Vítězslav Dvořák <info@vitexsoftware.cz>  Wed, 28 May 2026 00:00:00 +0200
 
 php-symfony-polyfill-php80 (1.33.0) trixie; urgency=low
 
